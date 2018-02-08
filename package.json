@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A compmatibiliyt-based \"FriendFinder\" application - basically a dating app. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/objgarrett/friendfinder.git"
+  },
+  "author": "Olivia Garrett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/objgarrett/friendfinder/issues"
+  },
+  "homepage": "https://github.com/objgarrett/friendfinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
