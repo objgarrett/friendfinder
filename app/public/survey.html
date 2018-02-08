@@ -167,7 +167,7 @@
 <script type="text/javascript">
     $("#submit").on("click", function(event){
         event.preventDefault();
-        var newFriendArray = {
+        var FriendsArray = {
             "name": $("#name").val(),
             "photo": $("#photo").val(),
             "scores": [
@@ -184,7 +184,7 @@
             ]    
         }
 
-        $.post("/api/friends", newFriendArray);
+        $.post("/api/friends", FriendsArray);
 
         $("#name").val('');
         $("#photo").val('');
